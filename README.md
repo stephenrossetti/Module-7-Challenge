@@ -1,7 +1,7 @@
-# a
+# Module-9-Challenge
   
   ## Badge
-  N/A
+  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
   
   ## Table of Contents
   - [Description](#description)
@@ -9,25 +9,26 @@
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [Tests](#tests)
-  
+  - [License](#license)
   - [Questions](#questions)
   
   ## Description
-  a
+  Description for Module 9
   
   ## Installation
   undefined
   
   ## Usage
-  a
+  github link
   
   ## Contributing
-  a
+  N/A
   
   ## Tests
-  a
+  N/A
   
-  
+  ## License
+    This project utilizes the MIT license. Please refer to the repo for more details.
   
   ## Questions
-  If you have any questions about the code please check out my GitHub at https://github.com/a. Otherwise feel free to reach me via email at a.
+  If you have any questions about the code please check out my GitHub at https://github.com/stephenrossetti. Otherwise feel free to reach me via email at stephen.rossetti@target.com.
