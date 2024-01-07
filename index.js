@@ -3,7 +3,7 @@
 // require generateMarkdown.js access that file paths//
 let fs = require('fs');
 let inquirer = require('inquirer');
-let createReadMe = require('./assets/generateMarkdown.js');
+let generateMarkdown = require('./assets/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -30,12 +30,12 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'Guidelines for my project?',
+        message: 'Contributing guidelines for my project?',
     },
     {
         type: 'input',
         name: 'testing',
-        message: 'Insctructions for testing my project?',
+        message: 'Instructions for testing my project?',
     },
     {
         type: 'list',
@@ -46,7 +46,7 @@ const questions = [
     {
         type: 'input',
         name: 'userNameGitHub',
-        message: 'Enter GitHub usernamer:',
+        message: 'Enter GitHub username:',
     },
     {
         type: 'input',
@@ -57,7 +57,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFile(fileName, JSON.stringify(data, null, '\t'), (err) =>
+    return fs.writeFile(fileName, JSON.stringify(data, null, ' '), (err) =>
         err ? console.log(err) : console.log('Success!')
     );
 }
@@ -66,7 +66,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then((data) => {
-            writeToFile('README.md', createReadMe(data));
+            writeToFile('README.md', generateMarkdown(data));
         });
 }
 
