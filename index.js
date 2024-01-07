@@ -10,54 +10,54 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Title of my project?',
+        message: 'Please enter the title of the project:',
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Description of my project?',
+        message: 'Please enter the description of the project:',
     },
     {
         type: 'input',
-        name: 'installtion',
-        message: 'Installion instructions for my project?',
+        name: 'installation',
+        message: 'Please enter the installation instructions for the project:',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Usage of my project?',
+        message: 'Please enter applicable links and/or instructions for usage of the project:',
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'Contributing guidelines for my project?',
+        message: 'Please enter contribution guidelines for the project:',
     },
     {
         type: 'input',
         name: 'testing',
-        message: 'Instructions for testing my project?',
+        message: 'Please enter testing instructions for the project:',
     },
     {
         type: 'list',
         name: 'license',
-        message: 'Select license for my project?',
+        message: 'Select license for the project:',
         choices: ['MIT', 'GPLv2', 'GPLv2', 'BSD 3-clause', 'Apache', 'None'],
     },
     {
         type: 'input',
         name: 'userNameGitHub',
-        message: 'Enter GitHub username:',
+        message: 'Please enter your GitHub username:',
     },
     {
         type: 'input',
         name: 'email',
-        message: 'Enter email address:',
+        message: 'Please enter your email address:',
     },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFile(fileName, JSON.stringify(data, null, ' '), (err) =>
+    return fs.writeFile(fileName, data, (err) =>
         err ? console.log(err) : console.log('Success!')
     );
 }
@@ -66,6 +66,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then((data) => {
+            console.log(JSON.stringify(data,null,' '));
             writeToFile('README.md', generateMarkdown(data));
         });
 }

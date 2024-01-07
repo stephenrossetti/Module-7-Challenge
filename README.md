@@ -1,1 +1,34 @@
-"# a\n  \n  ## Badge\n   [![license](https://img.shields.io/badge/license-MIT-blue.svg)]\n  \n  ## Table of Contents\n  - [Description](#description)\n  - [Installation](#installation)\n  - [Usage](#usage)\n  - [Contributing](#contributing)\n  - [Tests](#tests)\n  - License(#license)\n  - [Questions](#questions)\n  \n  ## Description\n  a\n  \n  ## Installation\n  undefined\n  \n  ## Usage\n  a\n  \n  ## Contributing\n  a\n  \n  ## Tests\n  a\n  \n  ## License\n    This project utilizes the MIT license.\n  \n  ## Questions\n  If you have any questions, please check out my GitHub at https://www.github.com/a, or please email me at a.\n"
+# Josie
+  
+  ## Badge
+   ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+  
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [License](#license)
+  - [Questions](#questions)
+  
+  ## Description
+  My dog is cute.
+  
+  ## Installation
+  undefined
+  
+  ## Usage
+  Use her for cuddles.
+  
+  ## Contributing
+  Only me.
+  
+  ## Tests
+  NO TESTS.
+  
+  ## License
+    This project utilizes the MIT license.
+  
+  ## Questions
+  If you have any questions, please check out my GitHub at https://github.com/stephenrossetti, or please email me at scrossettistone@gmail.com.
