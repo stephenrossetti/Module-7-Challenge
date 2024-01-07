@@ -1,7 +1,7 @@
-# Josie
+# a
   
   ## Badge
-   ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+  N/A
   
   ## Table of Contents
   - [Description](#description)
@@ -9,26 +9,25 @@
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [Tests](#tests)
-  - [License](#license)
+  
   - [Questions](#questions)
   
   ## Description
-  My dog is cute.
+  a
   
   ## Installation
   undefined
   
   ## Usage
-  Use her for cuddles.
+  a
   
   ## Contributing
-  Only me.
+  a
   
   ## Tests
-  NO TESTS.
+  a
   
-  ## License
-    This project utilizes the MIT license.
+  
   
   ## Questions
-  If you have any questions, please check out my GitHub at https://github.com/stephenrossetti, or please email me at scrossettistone@gmail.com.
+  If you have any questions about the code please check out my GitHub at https://github.com/a. Otherwise feel free to reach me via email at a.
