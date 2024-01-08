@@ -15,7 +15,9 @@ Create new repository and utilize starter code from GitLab for Module-9-Challeng
 
 ## Usage
 
-To view this wesbite, open the HTML link here: https://stephenrossetti.github.io/Module-9-Challenge/.
+To view the walkthrough, open the HTML link here: https://stephenrossetti.github.io/Module-9-Challenge/.
+
+To view the sample README, open the HTML link here: https://github.com/stephenrossetti/Module-9-Challenge/blob/main/READMEsample.md.
 
 To review the code, open the GitHub repository here: https://github.com/stephenrossetti/Module-9-Challenge.git.
 
