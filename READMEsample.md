@@ -25,10 +25,10 @@
   Sample Contributions
   
   ## Tests
-  Sample Testing
+  Sample Tests
   
   ## License
   This project utilizes the MIT license. Please refer to the repo for more details.
   
   ## Questions
-  If you have any questions about the code please check out my GitHub at https://github.com/stephen.rossetti. Otherwise feel free to reach me via email at rossetti.stephen@gmail.com.
+  If you have any questions about the code please check out my GitHub at https://github.com/stephenrossetti. Otherwise feel free to reach me via email at rossetti.stephen@gmail.com.
