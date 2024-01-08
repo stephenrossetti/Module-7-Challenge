@@ -3,7 +3,7 @@
 // require generateMarkdown.js access that file paths//
 let fs = require('fs');
 let inquirer = require('inquirer');
-let generateMarkdown = require('./assets/generateMarkdown.js');
+let generateMarkdown = require('./generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -67,7 +67,7 @@ function init() {
     inquirer.prompt(questions)
         .then((data) => {
             console.log(JSON.stringify(data,null,' '));
-            writeToFile('README.md', generateMarkdown(data));
+            writeToFile('READMEsample.md', generateMarkdown(data));
         });
 }
 

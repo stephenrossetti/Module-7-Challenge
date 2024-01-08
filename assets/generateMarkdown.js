@@ -23,7 +23,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'None') {
     return `## License
-    This project utilizes the ${license} license. Please refer to the repo for more details.`;
+  This project utilizes the ${license} license. Please refer to the repo for more details.`;
   } else {
     return '';
   }
@@ -50,7 +50,7 @@ function generateMarkdown(data) {
   ${data.description}
   
   ## Installation
-  ${data.installion}
+  ${data.installation}
   
   ## Usage
   ${data.usage}
