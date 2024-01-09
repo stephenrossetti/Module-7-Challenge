@@ -2,7 +2,7 @@
 
 ## Description
 
-Node.js Challenge: Professional README Generator, or Module 9's Challenge, is to build README generator using a command-line application. This challenge is use a command-line generator (node index.js) that will dynamically generate a README.md file from the user's inout by using the Inquirer package. The README should include a title, description, table of contents, installation, usage, license, contributing, tests, and questions section. The question section should include a Github username and email address, and the license should include the respective license badge. This challenge will test our ability to utilize the command-line and node.js to dynamically create a README.
+Node.js Challenge: Professional README Generator, or Module 9's Challenge, is to build a README generator using a command-line application. The command-line generator (node index.js) will dynamically generate a README.md file from the user's inputs by using the Inquirer package. The README should include a title, description, table of contents, installation, usage, license, contributing, tests, and questions section. The question section should include a Github username and email address, and the license should include the respective license badge. This challenge will test our ability to utilize the command-line and node.js to dynamically create a README.
 
 ## Installation
 
