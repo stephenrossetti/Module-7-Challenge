@@ -1,4 +1,4 @@
-# Module-9-Challenge (Professional README Generator)
+# Professional README Generator (Mod-9-Challenge)
 
 ## Description
 
