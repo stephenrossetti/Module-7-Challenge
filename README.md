@@ -1,4 +1,4 @@
-# Module-9-Challenge
+# Module-9-Challenge (Professional README Generator)
 
 ## Description
 
@@ -17,9 +17,9 @@ Create new repository and utilize starter code from GitLab for Module-9-Challeng
 
 To view the walkthrough, open the HTML link here: https://drive.google.com/file/d/125YMKv1TsMCuFh7ljg6tBIUp89SSi-Um/view.
 
-To view the sample README, open the HTML link here: https://github.com/stephenrossetti/Module-9-Challenge/blob/main/READMEsample.md.
+To view the sample README, open the HTML link here: https://github.com/stephenrossetti/Module-9-Professional-README-Generator/blob/main/READMEsample.md.
 
-To review the code, open the GitHub repository here: https://github.com/stephenrossetti/Module-9-Challenge.git.
+To review the code, open the GitHub repository here: https://github.com/stephenrossetti/Module-9-Professional-README-Generator.git.
 
 ## Credits
 
